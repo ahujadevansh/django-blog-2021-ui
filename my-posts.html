@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Django Blog</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Font Awesome 5 -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="static/css/app.css">
+    <link rel="stylesheet" href="static/css/footer.css">
+  </head>
+  <body>
+
+  <!-- NAVBAR -->
+  <div class="pb-3 pt-3 border-bottom">
+    <div class="container">
+      <nav class="nav navbar-expand-sm navbar-light justify-content-between">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="my-posts.html">My Posts</a>
+          </li>
+      
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              Categories
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Link 1</a>
+              <a class="dropdown-item" href="#">Link 2</a>
+              <a class="dropdown-item" href="#">Link 3</a>
+            </div>
+          </li>
+        </ul>
+        <div class="d-flex align-items-center">
+          <a class="navbar-brand" href="index.html">Blog Project</a>
+        </div>
+        <form class="form-inline">
+          <div class="input-group">
+            <input type="text" name="search" class="form-control pill-left" placeholder="Search">
+            <div class="input-group-append">
+              <button class="btn btn-secondary pill-right" type="submit">
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
+          </div>
+        </form>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Posts -->
+  <div class="container mt-3">
+    <div class="mb-3">
+      <article class="media border rounded shadow p-3 my-2 bg-white">
+        <img class="rounded-circle img-fluid" style="height:50px;width:50px" src="/static/image/author.jpg" alt="author profile pic">
+        <div class="media-body pl-2">
+            <h4><a href="#">ad</a><small><i> posted on June 16, 2019</i></small></h4><hr>
+            <h2 class="text-break"><a href="#">Lorem Ipsums</a></h2>
+            <img src="/static/image/post-1.jpg" class="rounded img-fluid" style="height:200px;width:300px">
+            <p class="text-break" id="8"></p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Aliquam …</p>
+            <a href="/post/8/" class="btn btn-primary">Read More</a>          
+        </div>
+      </article>
+      <article class="media border rounded shadow p-3 my-2 bg-white">
+        <img class="rounded-circle img-fluid" style="height:50px;width:50px" src="/static/image/author.jpg" alt="author profile pic">
+        <div class="media-body pl-2">
+            <h4><a href="#">ad</a><small><i> posted on June 16, 2019</i></small></h4><hr>
+            <h2 class="text-break"><a href="#">Lorem Ipsums</a></h2>
+            <img src="/static/image/post3.jpg" class="rounded img-fluid" style="height:200px;width:300px">
+            <p class="text-break" id="8"></p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Aliquam …</p>
+            <a href="/post/8/" class="btn btn-primary">Read More</a>          
+        </div>
+      </article>
+      <article class="media border rounded shadow p-3 my-2 bg-white">
+        <img class="rounded-circle img-fluid" style="height:50px;width:50px" src="/static/image/author.jpg" alt="author profile pic">
+        <div class="media-body pl-2">
+            <h4><a href="#">ad</a><small><i> posted on June 16, 2019</i></small></h4><hr>
+            <h2 class="text-break"><a href="#">Lorem Ipsums</a></h2>
+            <img src="/static/image/post7.jpg" class="rounded img-fluid" style="height:200px;width:300px">
+            <p class="text-break" id="8"></p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Aliquam …</p>
+            <a href="/post/8/" class="btn btn-primary">Read More</a>          
+        </div>
+      </article>
+      <article class="media border rounded shadow p-3 my-2 bg-white">
+        <img class="rounded-circle img-fluid" style="height:50px;width:50px" src="/static/image/author.jpg" alt="author profile pic">
+        <div class="media-body pl-2">
+            <h4><a href="#">ad</a><small><i> posted on June 16, 2019</i></small></h4><hr>
+            <h2 class="text-break"><a href="#">Lorem Ipsums</a></h2>
+            <img src="/static/image/post4.jpg" class="rounded img-fluid" style="height:200px;width:300px">
+            <p class="text-break" id="8"></p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Aliquam …</p>
+            <a href="/post/8/" class="btn btn-primary">Read More</a>          
+        </div>
+      </article>
+      <article class="media border rounded shadow p-3 my-2 bg-white">
+        <img class="rounded-circle img-fluid" style="height:50px;width:50px" src="/static/image/author.jpg" alt="author profile pic">
+        <div class="media-body pl-2">
+            <h4><a href="#">ad</a><small><i> posted on June 16, 2019</i></small></h4><hr>
+            <h2 class="text-break"><a href="#">Lorem Ipsums</a></h2>
+            <img src="/static/image/post2.jpg" class="rounded img-fluid" style="height:200px;width:300px">
+            <p class="text-break" id="8"></p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Aliquam …</p>
+            <a href="/post/8/" class="btn btn-primary">Read More</a>          
+        </div>
+      </article>
+    </div>
+
+    <!-- Pagination -->
+    <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-center">
+        <li class="page-item disabled">
+          <a class="page-link" href="#" tabindex="-1">
+            <i class="fas fa-arrow-left"></i>
+          </a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#">
+            <i class="fas fa-arrow-right"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    
+  </div>
+  
+  <!-- Footer -->
+  <footer class="bg-white">
+    <div class="container">
+      <div class="row">
+            <div class="col-md-3 col-sm-6">
+              <h3>About Us</h3>
+              <p>We provide you the best solutions and creative ideas with HTML, CSS, Bootstrap, Javascript, Jquery technologies, and SEO.</p>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Link First</a></li>
+                    <li><a href="#">Link Second</a></li>
+                    <li><a href="#">Link Third</a></li>
+                    <li><a href="#">Link Fourth</a></li>
+                    <li><a href="#">Link Fifth</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <h3>Our Services</h3>
+                <ul>
+                    <li><a href="#">Link First</a></li>
+                    <li><a href="#">Link Second</a></li>
+                    <li><a href="#">Link Third</a></li>
+                    <li><a href="#">Link Fourth</a></li>
+                    <li><a href="#">Link Fifth</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <h3>Download App</h3>
+                <div class="follow-us">
+                    <ul>
+                        <li><a href="#"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i> Linkedin</a></li>
+                    </ul>
+                </div>
+            </div>                
+      </div>
+    </div>
+
+    <!-- Copyright Text -->
+    <div class="copyright-txt">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="text-center">Copyright 2020. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </footer>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
